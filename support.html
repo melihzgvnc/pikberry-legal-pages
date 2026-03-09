@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — Pikberry</title>
+  <style>
+    :root {
+      --brand: #8c1732;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --bg: #ffffff;
+      --surface: #f9fafb;
+      --border: #e5e7eb;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    header {
+      background: var(--brand);
+      color: #fff;
+      padding: 2rem 1.5rem;
+      text-align: center;
+    }
+    header h1 { font-size: 1.75rem; font-weight: 700; }
+    header p { margin-top: .5rem; font-size: .95rem; opacity: .85; }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin: 2rem 0 .75rem;
+      color: var(--brand);
+    }
+    p, li { font-size: .95rem; color: var(--text); }
+    p + p { margin-top: .75rem; }
+    ul { padding-left: 1.25rem; margin-top: .5rem; }
+    li { margin-bottom: .4rem; }
+    a { color: var(--brand); }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin: 1rem 0;
+    }
+    .card h3 { font-size: 1rem; font-weight: 600; margin-bottom: .4rem; }
+    .card p { margin: 0; }
+    details {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin: .75rem 0;
+      padding: 0;
+    }
+    details + details { margin-top: .5rem; }
+    summary {
+      padding: .85rem 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      font-size: .95rem;
+      list-style: none;
+    }
+    summary::-webkit-details-marker { display: none; }
+    summary::before { content: "▸ "; color: var(--brand); }
+    details[open] summary::before { content: "▾ "; }
+    details div { padding: 0 1rem 1rem; font-size: .9rem; }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: .85rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+    nav { text-align: center; padding: .75rem; font-size: .9rem; background: var(--surface); border-bottom: 1px solid var(--border); }
+    nav a { margin: 0 .75rem; text-decoration: none; font-weight: 500; }
+    nav a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <nav><a href="privacy.html">Privacy Policy</a><a href="support.html">Support</a></nav>
+  <header>
+    <h1>Support</h1>
+    <p>Pikberry — AI Mock Interview Practice</p>
+  </header>
+  <main>
+
+    <h2>Contact Us</h2>
+    <div class="card">
+      <h3>Email Support</h3>
+      <p>For any questions, issues, or feedback, reach us at <a href="mailto:pikberryai@gmail.com">pikberryai@gmail.com</a>. We aim to respond within 24 hours on business days.</p>
+    </div>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <details>
+      <summary>What is Pikberry?</summary>
+      <div><p>Pikberry is an AI-powered mock interview app that helps you practice behavioral interview questions and receive detailed feedback on your responses. It is available on iOS and Android.</p></div>
+    </details>
+
+    <details>
+      <summary>How do I create an account?</summary>
+      <div><p>You can sign up with your email address and a password, or use Google Sign-In or Apple Sign-In for a faster setup.</p></div>
+    </details>
+
+    <details>
+      <summary>Is there a free trial?</summary>
+      <div><p>Yes. Every new user gets one complete mock interview with full AI feedback at no cost, so you can experience the full product before subscribing.</p></div>
+    </details>
+
+    <details>
+      <summary>What subscription plans are available?</summary>
+      <div>
+        <p>We offer two paid plans:</p>
+        <ul>
+          <li><strong>Premium</strong> — $7.99/month or $47.99/year. Up to 10 interviews per month with full AI feedback.</li>
+          <li><strong>Pro</strong> — $14.99/month or $89.99/year. Unlimited interviews with full AI feedback.</li>
+        </ul>
+        <p>Annual plans save approximately 50% compared to monthly billing.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>How do I manage or cancel my subscription?</summary>
+      <div>
+        <p>Subscriptions are managed through your device's app store:</p>
+        <ul>
+          <li><strong>iOS:</strong> Settings → Apple ID → Subscriptions → Pikberry</li>
+          <li><strong>Android:</strong> Google Play Store → Menu → Subscriptions → Pikberry</li>
+        </ul>
+        <p>You can cancel at any time. Your access continues until the end of the current billing period.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>How does the AI feedback work?</summary>
+      <div><p>After you complete a mock interview, our AI analyzes your responses using the STAR framework (Situation, Task, Action, Result). You receive an overall score, per-question feedback, strengths, areas for improvement, and actionable recommendations.</p></div>
+    </details>
+
+    <details>
+      <summary>Is my interview data private?</summary>
+      <div><p>Yes. Your interview transcripts are only used to generate your personal feedback. We do not sell your data. You can delete your account and all associated data at any time from the Profile screen. Please see our <a href="privacy.html">Privacy Policy</a> for full details.</p></div>
+    </details>
+
+    <details>
+      <summary>How do I delete my account?</summary>
+      <div><p>Go to Profile in the App and select "Delete Account." Your data will be soft-deleted immediately and permanently purged after 30 days. You can also email <a href="mailto:support@pikberry.com">support@pikberry.com</a> to request deletion.</p></div>
+    </details>
+
+    <details>
+      <summary>I'm having trouble signing in</summary>
+      <div>
+        <p>Try these steps:</p>
+        <ul>
+          <li>Make sure you have a stable internet connection.</li>
+          <li>If using email/password, verify your email address is correct and your password is at least 8 characters.</li>
+          <li>If using Google or Apple Sign-In, make sure you are signed into the correct account on your device.</li>
+          <li>Try closing and reopening the App.</li>
+        </ul>
+        <p>If the issue persists, contact us at <a href="mailto:pikberryai@gmail.com">pikberryai@gmail.com</a> with a description of the problem and your device model.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>The app is crashing or not loading</summary>
+      <div>
+        <ul>
+          <li>Make sure you are running the latest version of the App from the App Store or Google Play.</li>
+          <li>Restart your device and try again.</li>
+          <li>If the problem continues, email us at <a href="mailto:pikberryai@gmail.com">pikberryai@gmail.com</a> with your device model, OS version, and a brief description of what happened.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>I was charged but don't have access</summary>
+      <div><p>Subscription activation can occasionally take a few minutes. Close and reopen the App. If access still isn't restored, email <a href="mailto:support@pikberry.com">support@pikberry.com</a> with your Apple or Google receipt and we will resolve it promptly.</p></div>
+    </details>
+
+    <h2>System Requirements</h2>
+    <ul>
+      <li>iOS 15.0 or later</li>
+      <li>Android 8.0 (API 26) or later</li>
+      <li>Active internet connection required for interviews and feedback</li>
+    </ul>
+
+  </main>
+  <footer>&copy; 2026 Pikberry. All rights reserved.</footer>
+</body>
+</html>
